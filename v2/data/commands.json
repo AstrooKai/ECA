@@ -1,0 +1,197 @@
+{
+  "arrest": {
+    "CommandName": "Arrest",
+    "Aliases": "rashomon",
+    "Category": "Moderation",
+    "Description": "Puts the specified member to jail, temporarily takes access to other channels. Member can be arrested by using their ID or mentioning them.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?arrest TARGET_USER",
+    "UsageExample": "?arrest @Elise-chan#0835\n?arrest 947864511895969812"
+  },
+  "ban": {
+    "CommandName": "Ban",
+    "Aliases": "ningenshikkaku",
+    "Category": "Moderation",
+    "Description": "Bans a member from the server. Member can be banned using heir ID or by mentioning them. An optional reason can be added, please use !r when adding a reason, refer to the example usage for guidance.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?ban TARGET_USER !r REASON",
+    "UsageExample": "?ban @Elise-chan#0835\n?ban 947864511895969812\n?ban @Elise-chan#0835 !r u bad u gone\n?ban 947864511895969812 !r u bad u gone"
+  },
+  "kick": {
+    "CommandName": "Kick",
+    "Aliases": "fallingcamellia",
+    "Category": "Moderation",
+    "Description": "Kicks a member from the server. Member can be kicked by using their ID or by mentioning them. An optional reason can be added, please use !r when adding a reason, refer to the example usage for guidance.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?kick TARGET_USER !r REASON",
+    "UsageExample": "?kick @Elise-chan#0835\n?kick 947864511895969812\n?kick @Elise-chan#0835 !r get outta here\n?kick 947864511895969812 !r get outta here"
+  },
+  "release": {
+    "CommandName": "Release",
+    "Aliases": "unrashomon",
+    "Category": "Moderation",
+    "Description": "Releases a member from jail.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?release TARGET_USER",
+    "UsageExample": "?release @Elise-chan#0835\n?release 947864511895969812"
+  },
+  "unban": {
+    "CommandName": "Unban",
+    "Aliases": "thoushaltnotdie",
+    "Category": "Moderation",
+    "Description": "Unbans a user using their ID. An optional reason can be added, please use !r when adding a reason, refer to the example usage for guidance.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?unban TARGET_USER !r REASON\n?unban TARGET_USER !r REASON",
+    "UsageExample": "?unban 947864511895969812 !r come back :>"
+  },
+  "addgif": {
+    "CommandName": "Addgif",
+    "Aliases": "none",
+    "Category": "Fun",
+    "Description": "Adds GIFs to the bot's external API, only authorized personnels can use this.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?addgif URL - Name/Title",
+    "UsageExample": "?addgif https://example.com/dazai.gif - Dazai GiF"
+  },
+  "addmeme": {
+    "CommandName": "Addmeme",
+    "Aliases": "none",
+    "Category": "Fun",
+    "Description": "Adds image memes to the bot's external API, only authorized personnels can use this.",
+    "AuthorizedPersonnels": [
+      "<@&920281541656068107>",
+      "<@&920265063087104000>"
+    ],
+    "Usage": "?addmeme URL - Name/Title",
+    "UsageExample": "?addmeme https://example.com/meme.png - funy meemee lol"
+  },
+  "bungogif": {
+    "CommandName": "Bungogif",
+    "Aliases": "bungogifs",
+    "Category": "Fun",
+    "Description": "Fetch random GIF from the API.",
+    "AuthorizedPersonnels": [
+      "@everyone"
+    ],
+    "Usage": "?bungogif",
+    "UsageExample": "?bungogif"
+  },
+  "bungomeme": {
+    "CommandName": "Bungomeme",
+    "Aliases": "bungomemes",
+    "Category": "Fun",
+    "Description": "Fetch random meme from the API.",
+    "AuthorizedPersonnels": [
+      "@everyone"
+    ],
+    "Usage": "?bungomeme",
+    "UsageExample": "?bungomeme"
+  },
+  "eval": {
+    "CommandName": "Eval",
+    "Aliases": "e",
+    "Category": "Developer/Misc",
+    "Description": "Evals a code snippet, only authorized to the dev.",
+    "AuthorizedPersonnels": [
+      "<@714086889878978582>"
+    ],
+    "Usage": "?eval CODE",
+    "UsageExample": "?eval console.log('Hello World!')"
+  },
+  "help": {
+    "CommandName": "Help",
+    "Aliases": "none",
+    "Category": "Misc",
+    "Description": "Sends basic guide on every commands, sends a list if no command name specified.",
+    "AuthorizedPersonnels": [
+      "@everyone"
+    ],
+    "Usage": "?help COMMAND_NAME",
+    "UsageExample": "?help\n?help bungogif"
+  },
+  "reboot": {
+    "CommandName": "Reboot",
+    "Aliases": "restart",
+    "Category": "Dev/Misc",
+    "Description": "Restarts the bot, only authorized to the dev.",
+    "AuthorizedPersonnels": [
+      "<@714086889878978582>"
+    ],
+    "Usage": "?reboot",
+    "UsageExample": "?reboot"
+  },
+  "status": {
+    "CommandName": "Status",
+    "Aliases": "stat, ping, pong",
+    "Category": "System/Misc",
+    "Description": "Shows bot's current ping and uptime.",
+    "AuthorizedPersonnels": [
+      "@everyone"
+    ],
+    "Usage": "?status",
+    "UsageExample": "?status"
+  },
+  "system": {
+    "CommandName": "System",
+    "Aliases": "sys, botsystem, botsys",
+    "Category": "SSystem/Misc",
+    "Description": "Shows information about the bot.",
+    "AuthorizedPersonnels": [
+      "@everyone"
+    ],
+    "Usage": "?system",
+    "UsageExample": "?system"
+  },
+  "update": {
+    "CommandName": "UpdateCommands",
+    "Aliases": "update",
+    "Category": "System/Misc",
+    "Description": "Reloads the bot's /commands internal folder to fetch new commands, without restarting the bot.",
+    "AuthorizedPersonnels": [
+      "@everyone"
+    ],
+    "Usage": "?updateCommands",
+    "UsageExample": "?updateCommands"
+  },
+  "general": {
+    "Moderation": [
+      "arrest",
+      "ban",
+      "kick",
+      "release",
+      "unban"
+    ],
+    "Fun": [
+      "addgif",
+      "addmeme",
+      "bungogif",
+      "bungomeme"
+    ],
+    "Misc": [
+      "eval",
+      "help",
+      "reboot",
+      "status",
+      "system",
+      "update"
+    ]
+  }
+}
