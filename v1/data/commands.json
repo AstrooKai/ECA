@@ -1,0 +1,103 @@
+{
+  "addgif": {
+    "name": "addgif",
+    "description": "Add GIFs to the API.",
+    "aliases": "None",
+    "usage": "?addgif <url> - <name>",
+    "note": "",
+    "category": "fun",
+    "authorized": "Bar Executives, Bar Owner"
+  },
+  "addmeme": {
+    "name": "addmeme",
+    "description": "Add memes to the API.",
+    "aliases": "None",
+    "usage": "?addmeme <url> - <name>",
+    "note": "", 
+    "category": "fun",
+    "authorized": "Bar Executives, Bar Owner"
+  },
+  "arrest": {
+    "name": "arrest",
+    "description": "Arrests the mentioned user. (Jail System)",
+    "aliases": "rashomon",
+    "usage": "?arrest <@user>",
+    "note": "",
+    "category": "moderation",
+    "authorized": "Bar Executives, Bar Owner"
+  },
+  "ban": {
+    "name": "ban",
+    "description": "bans the mentioned user from the server.",
+    "aliases": "ningenshikkaku",
+    "usage": "?ban <@user> !r <reason>",
+    "note": "Reason is optional",
+    "category": "moderation",
+    "authorized": "Bar Executives, Bar Owner"
+  },
+  "bungogifs": {
+    "name": "bungogifs",
+    "description": "sends random BSD GIF.",
+    "aliases": "bungogif",
+    "usage": "?bungogifs",
+    "note": "",
+    "category": "fun",
+    "authorized": "everyone"
+  },
+  "eval": {
+    "name": "eval",
+    "description": "evaluates a code.",
+    "aliases": "None",
+    "note": "",
+    "category": "dev",
+    "authorized": "Bot Developer"
+  },
+  "kick": {
+    "name": "kick",
+    "description": "kicks the mentioned user from the server.",
+    "aliases": "fallingcamellia",
+    "note": "Reason is optional",
+    "category": "moderation",
+    "authorized": "Bar Executives"
+  },
+  "reboot": {
+    "name": "reboot",
+    "description": "restarts the bot by rebooting the server. Restricted to the dev only!",
+    "aliases": "restart",
+    "note": "",
+    "category": "misc",
+    "authorized": "Dev"
+  },
+  "release": {
+    "name": "release",
+    "description": "releases the menioned user. (Jail System)",
+    "aliases": "unrashamon",
+    "note": "",
+    "category": "moderation",
+    "authorized": "Bar Executives"
+  },
+  "status": {
+      "name": "status",
+      "description": "shows bot's websocket, latency, and uptime.",
+      "aliases": "stat, ping, pong",
+      "note": "",
+      "category": "misc",
+      "authorized": "everyone"
+  },
+  "system": {
+    "name": "system",
+    "description": "Shows bot system unformation.",
+    "aliases": "sys, botsystem, botsys",
+    "note": "",
+    "category": "misc",
+    "authorized": "everyone"
+  },
+  "unban": {
+    "name": "unban",
+    "description": "Unbans the user from the server using their ID.",
+    "aliases": "thoushaltnotdie",
+    "note": "",
+    "category": "moderation",
+    "authorized": "Bar Executives"
+  }
+}
